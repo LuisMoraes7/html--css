@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(fontes/coolvetica\ rg.otf) format(opentype);
+
+    font-family: "Coolvetica Lighter";
+    src: url(fontes/coolvetica\ crammed\ rg.otf) format(opentype);
+
+    font-family: "IDroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body{
+    height: 100%;
+    background-color: #84E1AD;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    font-family: "IDroid";
+}
+
+header{
+    font-family: "Coolvetica Lighter";
+    padding-top: 40px;
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, white, #005707);
+}
+
+header > h1, p{
+    text-align: center;
+}
+
+
+
+nav{
+    font-family: "Coolvetica Lighter";
+    background-color: #005707;
+    padding: 10px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.452);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    transition-duration: 0.5s;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+main > h1{
+    text-align: center;
+    font-size: 2em;
+    color: #005707;
+}
+
+main > h2{
+    font-family: "IDroid";
+    font-size: 1.5em;
+    background-color: #84E1AD;
+    border-radius: 5px;
+    text-indent: 14px;
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+img{
+    width: 100%;
+
+}
+
+img#bugdroidz{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+}

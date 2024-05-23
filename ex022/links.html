@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    /*  SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudoclass
+        :: = pseudoelement
+        > = children
+    */
+
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::before{
+            content: 'zeca ';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+
+        }
+
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando link</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Canal do Youtube</a></li>
+        <li><a href="https://www.notion.so/CSS-ca9590547107489989ee240bf9d2f050">Site do CursoEmVideo</a></li>
+        <li><a href="https://aprendizagem.iesp.edu.br:50443/login/index.php">Github repositório</a></li>
+    </ul>
+</body>
+</html>

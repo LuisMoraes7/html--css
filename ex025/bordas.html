@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        body{
+            background-color: #F5F5F5;
+        }
+        h1#personalizada{
+            background-color: aqua;
+            display: inline-block;
+            margin: auto;
+            border: 39px solid transparent;
+            padding: 10px;
+            border-image-source: url('borda.jpg');
+            border-image-slice: 111;
+            border-image-repeat: stretch;
+            border-radius: 10px;
+
+            /* shorthand: 
+            border-image: url('borda.jpg') 111 stretch
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="personalizada">
+        <p>Olá Mundo</p>
+    </h1>
+</body>
+</html>
