@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar repositórios
 
-<a href="https://luiseduardo0707.github.io/html--css/ex026-desafio-corrigido/desafiocorrigido.html">Meu maior projeto feito com o Curso Em Video</a>
+<a href="https://luismoraes7.github.io/html--css/ex026-desafio-corrigido/desafiocorrigido.html">Meu maior projeto feito com o Curso Em Video.</a>
