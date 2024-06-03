@@ -28,10 +28,11 @@ section#redes-sociais a{
     padding: 4px 30px;
     border-radius: 30px;
     width: 80%;
-    background: #1b5a54d8;
-    color: white;
+    background-image: linear-gradient(to right, #2A8C82, #41BFB3);
+    background-attachment: fixed;
     text-align: end;
-    border-bottom: 4px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     border-right: 1px solid transparent;
     box-shadow: 1px;
     transition: all 0.3s;
@@ -39,8 +40,7 @@ section#redes-sociais a{
 
 
 section#redes-sociais a:hover{
-    background-color: #9BF2EA;
-
+    background-color: white;
 }
 
 div.container{
