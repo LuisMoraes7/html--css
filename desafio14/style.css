@@ -41,6 +41,12 @@ section#redes-sociais a{
     transition: all 0.3s;
 }
 
+section#redes-sociais a:hover{
+    transform: translate(-3px, -3px);
+    border: 1px solid rgba(255, 255, 255, 0.781);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.377);
+}
+
 
 div.container{
     background-color: #aff5f08c;
