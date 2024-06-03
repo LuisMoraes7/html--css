@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 body{
-    background-color: #624763;
+    background-color: #275950;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
 }
 
-
+p{
+    font-size: 1.1em;
+}
 
 section#redes-sociais img{
     width: 50px;
@@ -26,34 +28,34 @@ section#redes-sociais a{
     padding: 4px 30px;
     border-radius: 30px;
     width: 80%;
-    background: rgb(58, 27, 59);
+    background: #1b5a54d8;
     color: white;
     text-align: end;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.116);
-    border-right: 1px solid rgba(0, 0, 0, 0.507);
+    border-bottom: 4px solid transparent;
+    border-right: 1px solid transparent;
     box-shadow: 1px;
     transition: all 0.3s;
 }
 
 
 section#redes-sociais a:hover{
-    background-color: rgb(38, 18, 39);
+    background-color: #9BF2EA;
 
 }
 
 div.container{
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: #aff5f08c;
     background-attachment: fixed;
     text-align: center;
     width: 340px;
     margin: auto;
     border-radius: 40px;
-    padding: 5px;
+    padding: 10px;
 }
 
 img#icone{
     width: 150px;
     border-radius: 120px;
     padding: 2px;
-
+    border: 1px groove #260101;
 }
