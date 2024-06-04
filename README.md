@@ -2,7 +2,7 @@
  Exercícios de HTML e CSS do Curso Em Video
 <style>
     body{
-        background-color: gray;
+        background-color: lightgray;
     }
 </style>
 Estou aprendendo a criar sites e agora vou gerenciar repositórios
