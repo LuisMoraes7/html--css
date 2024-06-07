@@ -20,7 +20,7 @@ header h1{
 }
 
 span#burguer{
-    background-color: darkgray;
+    background-color: transparent;
     display: block;
     color: white;
     text-align: center;
@@ -53,7 +53,8 @@ menu a{
 
 menu a:hover{
     background-color: rgba(255, 255, 255, 0.247);
-    transform: translate(-3px, -3px);
+    transform: translate(3px, -3px);
+    transition-duration: 1s;
 }
 
 main{
