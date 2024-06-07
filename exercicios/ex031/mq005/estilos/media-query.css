@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 span#burguer{
-    background-color: darkgray;
-    position: relative;
-    left: 47%;
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 10px;
