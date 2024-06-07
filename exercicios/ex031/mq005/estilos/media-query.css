@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 785px){
     span#burguer{
         display: none;
     }
@@ -14,6 +15,7 @@
         display: inline-block;
     }
 }
+
 span#burguer{
     background-color: transparent;
     color: white;
