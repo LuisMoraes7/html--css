@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --verde-escuro: #344e41;
+    --verde-mediano: #3a5a40;
+    --verde-claro: #588157;
+    --verde-suave: #a3b18a;
+}
+
+body{
+    background-color: var(--verde-escuro);
+}
