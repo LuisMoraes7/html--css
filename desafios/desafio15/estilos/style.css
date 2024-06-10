@@ -131,7 +131,7 @@ div.campo > input{
     height: 100%;
     border: none;
     border-radius: 5px;
-    width: calc(100% - 44px);
+    width: calc(100% - 14px);
     transform: translateY(-56px);
 }
 
