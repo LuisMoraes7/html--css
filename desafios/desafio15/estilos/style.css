@@ -110,8 +110,8 @@ form > div.campo{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-    background-color: var(--verde-mediano);
-    border: 2px solid var(--verde-mediano);
+    background-color: var(--verde-escuro);
+    border: 2px solid var(--verde-escuro);
 }
 
 div.campo > label{
@@ -131,7 +131,7 @@ div.campo > input{
     height: 100%;
     border: none;
     border-radius: 5px;
-    width: calc(100% - 50px);
+    width: calc(100% - 45px);
     transform: translateY(-12px);
 }
 
