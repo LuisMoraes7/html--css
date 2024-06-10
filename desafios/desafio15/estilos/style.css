@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+div#container{
+    background-color: aquamarine;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+header{
+    display: inline-block;
+    background-color: blue;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    border: 3px solid purple;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 6.5%;
+}
