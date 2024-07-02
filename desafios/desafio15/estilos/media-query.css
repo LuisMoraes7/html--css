@@ -16,6 +16,16 @@
         float: right;
         width: 60%;
     }
+
+    button#mudar-tema{
+        padding: 10px;
+        
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        left: 60%;
+        transform: translate(-50%);
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -35,4 +45,14 @@
         width: 50%;
 
     }
+
+    button#mudar-tema{
+        padding: 10px;
+
+        border: none;
+        border-radius: 5px;
+        margin-left: 160px;
+        margin-top: 15px;
+    }
+
 }

@@ -7,10 +7,10 @@
 }
 
 :root{
-    --verde-escuro: #344e41;
-    --verde-mediano: #3a5a40;
-    --verde-claro: #588157;
-    --verde-suave: #a3b18a;
+    --verde-escuro: #23352c;
+    --verde-mediano: #2b422f;
+    --verde-claro: #3e5a3d;
+    --verde-suave: #5e664f;
 }
 
 body, html{
@@ -86,7 +86,7 @@ form > a.botao{
     font-size: 1em;
     width: 100%;
     height: 45px;
-    background-color: white;
+    background-color: rgb(143, 143, 143);
     border: 1px solid var(--verde-mediano);
     border-radius: 5px;
     text-decoration: none;
@@ -98,6 +98,7 @@ form > a.botao{
 
 form > a.botao > span{
     font-size: 0.8em;
+    
 }
 
 form > a.botao:hover{
@@ -119,7 +120,7 @@ div.campo > label{
 }
 
 div.campo > span{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -141,8 +142,8 @@ div.campo > input:focus-within{
 
 button#mudar-tema{
     padding: 10px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgb(143, 143, 143);
     border: none;
     border-radius: 5px;
     margin-left: 77px;
@@ -150,5 +151,5 @@ button#mudar-tema{
 }
 
 button#mudar-tema:hover{
-    background-color: gray;
+    background-color: white;
 }
