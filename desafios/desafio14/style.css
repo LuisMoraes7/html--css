@@ -274,5 +274,6 @@ img#icone{
     }
     .container{
         height: 400px;
+        width: 600px;
     }
 }
